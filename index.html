@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./animaciones.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Enrique - Portafolio</title>
+  </head>
+    <!-- Navbar menu -->
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse possitemslinks" id="navbarNav">
+                <ul class="navbar-nav nav_menu not-active">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Mis proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+
+              
+            </div>
+          </nav>
+    </header>
+
+    <!-- Home -->
+    <section>
+      <a name="aboutme" href="/"> </a> 
+        <div class="bg-fulldark spacing-section">
+            <div>
+                <p class="titles-section inicialText">Sobre mí</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div>
+                        <p class="aboutme-info">
+                            <span>Como Ingeniero en Desarrollo de Software, graduado de la Universidad Politécnica de Chiapas, mi enfoque principal reside en el desarrollo frontend. 
+                                <br></br>
+                                Poseo experiencia en el uso de frameworks como React.js para aplicaciones web, así como Flutter y React Native para el desarrollo móvil. 
+                                <br></br>
+                                Mi experiencia laboral ha abarcado diversos aspectos clave, incluyendo la integración de API REST, implementación de sistemas de autenticación, procesamiento de métodos de pago, garantía de responsividad y optimización del rendimiento de aplicaciones.
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <a name="habilidades" href="/"> </a>      
+        <div class='bg-dark spacing-section'>
+
+            <div>
+                <p class='titles-section'>Habilidades Tecnologicas</p>
+            </div>
+    
+            <div class='container-md contenedor-skill'>
+                <div class='row gx-md-5 contenedorrow'>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/javascript.png' alt='Logo JavaScript'></img>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/html5.png' alt='Logo HTML5'></img>
+                        <p>HTML5</p>
+                    </div>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/css3.png' alt='Logo Css'></img>
+                        <p>CSS 3</p>
+                    </div>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/reactjs.png' alt='Logo React'></img>
+                        <p>React.js</p>
+                    </div>
+                </div>
+                <div class='row gx-md-5 contenedorrow'>
+                  <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/git.png' alt='Logo Git'></img>
+                        <p>Git</p>
+                    </div>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/Flutter.png' alt='Logo Flutter'></img>
+                        <p>Flutter</p>
+                    </div>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/figma.png' alt='Logo Figma'></img>
+                        <p>Figma</p>
+                    </div>
+                    <div class='col-md-3 col-3 card-skill'>
+                        <img class='card-skill-img' src='./assets/images/api.png' alt='Logo Api-Rest'></img>
+                        <p>API REST</p>
+                    </div>
+                </div>
+    
+            </div>
+          </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section>
+      <a name="proyectos" href="/"> </a>
+      <div class="bg-fulldark spacing-section">
+        <div>
+          <p class="titles-section">Mis proyectos</p>
+        </div>
+        <div class="container">
+          <div>
+            <div class="row contenedor-proyectos">
+              <div class="col-md-3 col-8 demo-proyectos">
+                <img src="./assets/demos/" class="gif-image">
+                <div class="link-contenedor">
+                  <div>
+                    <p class="nombre-empresa">Algo Entertainment</p>
+                    <p class="info-proyecto">Renovación Total de la Interfaz Web</p>
+                  </div>
+                  <a class="link-demo">https://www.algoenter.com.mx/</a>
+                </div>
+                
+              </div>
+              <div class="col-md-3 col-8 demo-proyectos">
+                <img src="./assets/demos/obs.gif" class="gif-image">
+                <div class="link-contenedor">
+                  <div>
+                    <p class="nombre-empresa">Office Business Solutions</p>
+                    <p class="info-proyecto">eCommerce de tienda de papeleria</p>
+                  </div>
+                  <a class="link-demo" href="https://demo-officebs.netlify.app/">https://demo-officebs.netlify.app/</a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-8 demo-proyectos">
+                <img src="./assets/demos/wip.gif" class="gif-image" >
+                <div class="link-contenedor">
+                  <div>
+                    <p class="nombre-empresa">Wishes In Points</p>
+                    <p class="info-proyecto">Sitio para Gestión de usuarios</p>
+                  </div>
+                  <a class="link-demo" href="https://wishesinpoints.com/">https://wishesinpoints.com/</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div>
+            <div class="row contenedor-proyectos">
+              <div class="col-md-3 col-8 demo-proyectos">
+                <img src="./assets/demos/yellow.gif" class="gif-image">
+                <div class="link-contenedor">
+                  <div>
+                    <p class="nombre-empresa">Yellow Rabbit</p>
+                    <p class="info-proyecto">Desarrollo completo de eCommerce</p>
+                  </div>
+                  <a class="link-demo" href="https://demo-yellowrabbit.netlify.app/">https://demo-yellowrabbit.netlify.app/</a>
+                </div>
+              </div>
+
+              <div class="col-md-3 ">
+              </div>
+
+              <div class="col-md-3">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- footer -->
+    <a name="contacto" href="/"> </a>
+    <footer class="footer">
+      <div class="container">
+        <div style="display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;gap: 20px;">
+          <div class="contenedorIcono">
+            <a class="btn" href="https://github.com/EnriqueGonz">
+              <img src="./assets/iconos/github.svg" alt="Icono SVG" class="iconofooter">
+            </a>
+          </div>
+          <div class="contenedorIcono">
+            <button class="btn" id="myButtonemail" data-toggle="tooltip" title="Email Copiado: enriquegonz1323@gmail.com">
+              <img src="./assets/iconos/envelope-solid.svg" alt="Icono SVG" class="iconofooter">
+            </button>
+            
+          </div>
+          <div class="contenedorIcono">
+            <a class="btn" href="https://www.linkedin.com/in/jose-enrique-gonzalez-espinosa-5a6a47188/">
+              <img src="./assets/iconos/linkedin.svg" alt="Icono SVG" class="iconofooter">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
